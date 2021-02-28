@@ -10,12 +10,24 @@ Esta prácitca consiste en realizar un programa que permita al usuario dibujar u
 
 Para la implementación del juego he usado Processing 3.5.4.
 
+<img src="readmeImages/Menu.png"
+     alt="Menu"
+     width="40%" />
+
 **Menú:** Al ejecutar el programa lo primero que vemos es un pantalla que nos muestra información de como usar el programa, también se muestra como continuar a la siguiente pantalla que sería la de dibujo, como en esta pantalla no se pueden tomar más acciones que avanzar decidí que era adecuado que se pudiera avanzar pulsando cualquier tecla.
+
+<img src="readmeImages/Draw.png"
+     alt="Draw"
+     width="40%" />
 
 **Pantalla perfil:** La siguiente pantalla que nos encontramos nos muestra una lienzo dividido en 2, con información de como resetear el dibujo y un botón para mostrar la superficie de revolución del dibujo que hayamos realizado, decidí poner un botón para mostrar la superficie de revolución pues es una acción básica con lo que conviene que el usuario la vea de forma clara. También hay un mensaje informando al usuario de que debe dibujar en la mitad derecha de la pantalla.
 
 **Mécaninca de dibujo:** Cada click que se realice sobre la pantalla se unira por una linea al anterior click realizado con lo que la figura será continua, como ayuda se muestra una linea entre el ultimo punto y el ratón para que se pueda visualizar como quedaría la linea si se clicará en cualquier punto, también se muestra un punto amarillo pequeño que apunta donde aterrizará el siguiente punto si clicamos, esto lo realice para que el usuario pueda ver de forma simple que si pulsa en el lado izquierdo de la pantalla el punto se dibujara en la mitad de la pantalla a la altura a la que se encuentra el ratón.
 
+<img src="readmeImages/Figure.png"
+     alt="Figure"
+     width="40%" />
+     
 **Pantalla superficie de revolución:** Esta pantalla muestra la superficie de revolución del perfil dibujado por el usuario, arriba a la izquierda se muestran varios controles, coloqué en este lugar la información pues no molesta además que suele ser el sitio comun para mostrar información.
 
 **Congelar/descongelar figura:** En la pantalla de superficie de revolución una de las acciones que se comunica al usuario es la posibilidad de congelar la figura para que no se mueva, dicha acción se realiza con el espacio, con la misma tecla se descongela la figura, cuando se encuentra congelada la figura esta no se mueve con el ratón si no que se mantiene quieta.
