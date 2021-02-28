@@ -62,3 +62,6 @@ He optado por dejar el menor código posible en el método draw para usar métod
 + **mouseClicked:** Se usa en la pantalla de dibujo para detectar y añadir los clicks del usuario para la acción de dibujar o para pulsar el botón de mostrar figura.
 + **keyPressed:** Detecta si el usuario ha clicado alguna de las teclas que permiten realizar distintas acciones.
 + **mouseWheel:** En la pantalla de la superficie de revolución este método se encarga de detectar cuando el usuario quiere realizar un zoom in/out.
+
+## GIF
+![Alt Text](Pong.gif)
