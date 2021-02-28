@@ -64,4 +64,4 @@ He optado por dejar el menor código posible en el método draw para usar métod
 + **mouseWheel:** En la pantalla de la superficie de revolución este método se encarga de detectar cuando el usuario quiere realizar un zoom in/out.
 
 ## GIF
-![Alt Text](Pong.gif)
+![Alt Text](SuperficieRevolucion.gif)
